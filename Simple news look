@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <meta charset="utf-8">
+    <style>
+      body, html {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        font: Arial 14px;
+      }
+      
+      video
+      {
+        width: 100%;
+}
+      i{
+      color: darkblue;
+}
+      h1{
+          background-color: orangered;
+        margin-bottom:3px;
+}
+
+      marquee
+      {
+background-color: darkblue;
+        color: white;
+        width: 67%;
+        margin-top: 20px;
+}
+      h3
+      {
+float:left;
+background-color: red;
+font-size: 18px;
+}
+      .maq
+      {
+margin-top: -20px;
+}
+      .container1
+      {
+background-color:black;
+        margin-top: 100px;
+      }
+      
+    </style>
+    
+    
+  </head>
+  <body>
+    
+<div class="container1">
+        
+      
+      <h1>
+        TVC <i>News </i>
+      </h1>
+
+        <video controls autoplay> 
+          <source src="News.mp4" type="video/mp4">
+        </video>
+        
+        <div class="maq">
+         
+        <h3>  Breaking News: </h3>
+          
+         <marquee duration="30"> OYO State Governor Seyi Makinde tested positive for the CORONA VIRUS. He said  he is going to self isolate him self </marquee>
+        
+    </div>
+    </div>
+    
+  </body>
+</html>
