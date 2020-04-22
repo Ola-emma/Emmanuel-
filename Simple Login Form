@@ -1,0 +1,57 @@
+           input
+      {
+        color: black
+      }
+      .content
+      {
+        margin-left: 20%;
+      }
+      .cont
+      {
+        background-color: #535353;
+        border-radius: 10px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+      
+      input
+      {
+       width: 70%;
+        height: 30px;
+        background-color: grey;
+        margin-top: 10px;
+        border-color: none;
+      }
+      img
+      {
+       border-radius: 130px;
+        margin-left: 45px;
+        margin-top: 10px;
+        width: 40%;
+ border: solid 2px;
+      }
+     
+    </style>
+    
+  </head>
+  <body>
+    <div class="cont">
+      <div class="content">
+  
+        <img src="Log.png">
+        <form>
+          <i class="fas fa-user"></i> <input type="text" required placeholder="Username"> <br>
+          <i class="fas fa-lock"></i> <input type="text" required placeholder="Password" >
+          <br>
+          <button>
+            Login!
+          </button>
+
+        </form>
+        
+      </div>
+    </div>
+    
+  </body>
+</html>
